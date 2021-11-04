@@ -15,7 +15,7 @@ const FILES_TO_CACHE = [
 self.addEventListener("install", (evt) => {
       // pre cache transactions
       evt.waitUntil(
-            caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/transactions"))
+            caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/transaction"))
       );
 
       // pre cache all static assets
