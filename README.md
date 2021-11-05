@@ -31,7 +31,7 @@ $ node server.js
 
 ## Usage
 
-When used in the browser, a user is first brought to the homepage where they can start logging their transactions. Both the name of the transaction and the amount must be filled in, and the user can either select "Add Funds" or "Subtract Funds" to represent money received or spent. Once submitted, the total budget amount at the top of the page updates and is represented on the graph.
+When used in the browser, a user is first brought to the homepage where they can start logging their transactions. Both the name of the transaction and the amount must be filled in, and the user can either select "Add Funds" or "Subtract Funds" to represent money received or spent. Once submitted, the total budget amount at the top of the page updates and is represented on the graph. If the user is offline, they can still add transactions and see them depicted on the page. When the user is back online, all the data entered when they were offline stays on the page.
 
 ## Credits
 
